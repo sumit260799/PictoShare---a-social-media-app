@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Add the CSS to your existing stylesheets or CSS file */
+.loginimg {
+  background-image: url("./assets/social2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (max-width: 800px) {
+  .loginimg {
+    background-position: calc(100% + 10rem) top;
+    background-size: cover;
+  }
+}
